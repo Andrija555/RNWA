@@ -50,48 +50,25 @@ $n=mysqli_num_rows($result2);
 
 if ($n > 0){
 	
-			echo "<table class=table>
+		echo "<table class=table>
 			<thead>
-             
-			<th >
-             ID
-             </th>
-			 <th >
-				Broj
-             </th>
-             <th >
-             Zgrada
-             </th>
-			  <th >
-             Level
-             </th>
-			  <th >
-             Bilješke
-             </th>
-			 
-			 </thead>";
+			 <th>ID</th>
+			 <th>Broj</th>
+			 <th>Zgrada</th>
+			 <th>Level</th>
+			 <th>Bilješke</th>
+			</thead>";
 	while ($myrow=mysqli_fetch_row($result2)){
 		 
-				echo "
-				 <tbody>
-				<tr>
-                <td data-label='ID'>
-                 $myrow[0] 
-                </td>
-				<td data-label='Broj'>
-                 $myrow[1] 
-                </td>
-                <td data-label='Zgrada'>
-                 $myrow[2] 
-                </td>
-				<td data-label='Level'>
-                 $myrow[3] 
-                </td>
-				<td data-label='Bilješke'>
-                 $myrow[4] 
-                </td>
-				</tr>
-				 </tbody>";
+		echo " <tbody>
+			  <tr>
+			    <td data-label='ID'>$myrow[0]</td>
+			    <td data-label='Broj'>$myrow[1]</td>
+			    <td data-label='Zgrada'>$myrow[2]</td>
+			    <td data-label='Level'>$myrow[3]</td>
+		            <td data-label='Bilješke'>$myrow[4]</td>
+			 </tr>
+		       </tbody>";
 			
 			//echo "<div name=\"result2\" id=\"".$myrow[0]."\">" .$myrow[2].", ".$myrow[3]."</div>";
 			
