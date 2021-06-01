@@ -22,7 +22,7 @@
         <ul>
             <li><a href="index.html"><i class="fas fa-home"></i><span>Dashboard</span></a></li>
             <li><a href='index.php?controller=buildings&action=index'><i class="fas fa-tasks"></i><span>Zgrade</span></a></li>
-            <li><a href="#"><i class="fas fa-tasks"></i><span>Zadatak 2</span></a></li>
+            <li><a href='index.php?controller=lokacije&action=index'><i class="fas fa-tasks"></i><span>Lokacije</span></a></li>
             <li><a href="#"><i class="fas fa-tasks"></i><span>Zadatak 3</span></a></li>
             <li><a href="http://fsre.sum.ba/naslovnica/"><i class="fas fa-building"></i><span>FSRE</span></a></li>
             <li><a href="http://github.com/Andrija555/RNWA"><i class="fab fa-github"></i><span> Github</span></a></li>
