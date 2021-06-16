@@ -1,1 +1,7 @@
+<b>REST II:</b>
+User: admin
+Pass: rest2
 
+<b>REST III:</b>
+User: admin
+Pass: rest3
